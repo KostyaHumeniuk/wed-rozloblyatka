@@ -1,0 +1,31 @@
+.content {
+    display: flex;
+    margin: 200px 100px 100px 100px;
+    font-family: sans-serif;
+}
+
+#area {
+    width: 306px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 26px;
+    border: 1px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+    border-radius: 30px;
+}
+
+.cell:hover {
+    background-color: #918686;
+}
